@@ -1,5 +1,10 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator
+import = [
+    "~/.config/alacritty/themes/themes/xterm.toml"
+]
+
 [window]
-opacity = 0.5
+opacity = 0.2
 blur = true
 decorations = "ButtonLess"
 padding = { x = 8, y = 8 } 
